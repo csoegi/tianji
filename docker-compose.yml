@@ -12,7 +12,7 @@ services:
       JWT_SECRET: SSG8jgfT458OsYjUph9r7JnJqa39PcQi0jZpt9jC5Jx
       ALLOW_REGISTER: "false"
       ALLOW_OPENAPI: "true"
-      PUBLIC_URL: "upshell.onrender.com" # for example: https://app.tianji.dev
+      PUBLIC_URL: "tianji-9a1d2.containers.snapdeploy.app" # for example: https://app.tianji.dev
     depends_on:
       - postgres
     restart: always
